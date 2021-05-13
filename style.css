@@ -1,0 +1,118 @@
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.search .label{
+    margin: auto;
+    padding-right: 10px;
+  }
+
+
+.searchBar {
+  width: 100%;
+  border: 3px solid #0058cc;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  
+}
+
+.searchBar:focus{
+  color: #0058cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #0058cc;
+  background: #0058cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_container{
+    display: flex;
+    padding-top: 15px;
+}
+
+.registerButton{
+    width: 150px;
+    border-radius: 5px;
+    height: 35px;
+    vertical-align: middle;
+    display: table-cell;
+}
+.button_a{
+    text-decoration: none;
+    color: white;
+}
+
+.index #list_table{
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+/* ---------------  Cadastro ---------------------- */
+
+.register_body .container{
+    flex-direction: column;
+    
+}
+
+.register_body #texto{
+    height: 300px;
+}
+
+.register_body .button_a {
+    margin: 20px 0 0 0;
+}
+
+.register_body .search{
+    display: inline;
+}
+.register_body .search div{
+    padding:10px 0;
+}
+
+.register_body .label{
+    display: flex;
+}
+.backButton{
+    padding:0px !important; 
+    margin-left: auto;
+}
+.backButton_a{
+    margin-left: auto !important;
+}
+
+#list_table{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    border: 3px solid #0058cc;
+}
+td{
+    border: 3px solid #0058cc;
+}
+tr{
+    border: 3px solid #0058cc;
+}
+i{
+    cursor: pointer;
+}
